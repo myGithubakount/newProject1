@@ -75,3 +75,7 @@ void turnLedOff() {
   digitalWrite(ledPin, LOW);
   ledState = false;
 }
+
+void hello(){
+  Serial.println("hello world");
+}
